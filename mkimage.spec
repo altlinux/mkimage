@@ -1,6 +1,6 @@
 Name: mkimage
 Version: 0.2.21
-Release: alt1
+Release: alt0.M80P.1
 
 Summary: Simple image creator
 License: GPL3
@@ -83,6 +83,9 @@ fi
 # - maybe Require: %%name-preinstall in the main package sometime later
 
 %changelog
+* Wed Sep 05 2018 Sergey V Turchin <zerg@altlinux.org> 0.2.21-alt0.M80P.1
+- build for M80P
+
 * Mon Aug 27 2018 Alexey Gladkov <legion@altlinux.ru> 0.2.21-alt1
 - Sort packages list by default
 - Add README.md and LICENSE
