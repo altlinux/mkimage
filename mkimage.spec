@@ -1,6 +1,6 @@
 Name: mkimage
-Version: 0.2.21
-Release: alt0.M80P.1
+Version: 0.2.24
+Release: alt1
 
 Summary: Simple image creator
 License: GPL3
@@ -83,6 +83,15 @@ fi
 # - maybe Require: %%name-preinstall in the main package sometime later
 
 %changelog
+* Wed Oct 03 2018 Nikolai Kostrigin <nickel@altlinux.org> 0.2.24-alt1
+- mki-copy-efiboot: extract refind_ia32.efi config options into separate file
+
+* Mon Sep 17 2018 Michael Shigorin <mike@altlinux.org> 0.2.23-alt1
+- mki-pack-isodata: drop extra quotes that hurt (closes: #35229)
+
+* Thu Sep 13 2018 Nikolai Kostrigin <nickel@altlinux.org> 0.2.22-alt1
+- mki-copy-efiboot: reserve enough space for EFI fs(closes: #35270)
+
 * Wed Sep 05 2018 Sergey V Turchin <zerg@altlinux.org> 0.2.21-alt0.M80P.1
 - build for M80P
 
